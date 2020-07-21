@@ -5,6 +5,7 @@
 ## Documentação
 
 * [🧰 Ferramentas](documentacao/ferramentas.md)
+* [⌨ Desenvolvimento](documentacao/desenvolvimento.md)
 
 ## Níquel
 
