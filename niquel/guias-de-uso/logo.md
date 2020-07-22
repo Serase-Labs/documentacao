@@ -62,6 +62,8 @@ Caso necessite de uma logo em tamanho não encontrado na pasta de `assets`da Bra
 
   > nomedalogo + tamanhoempixels
   >
+  > Onde nomo da logo poder ser: primarylogo,secondarylogo e monologo
+  >
   > Por exemplo: logosecundaria64x64.png
 
 ## Fontes
