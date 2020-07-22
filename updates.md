@@ -11,5 +11,5 @@ description: >-
   * Documentação de Desenvolvimento \(Passo-a-passo de instalação do aplicativo\).
 * 22/07
   * Documentação da Logo \(Guia de utilização dos tamanhos e modelos\)
-  * 
+  * Documentação dos Botões \(Guia de utilização e implementação\)
 
