@@ -13,3 +13,7 @@
 * [Guias de Uso](niquel/guias-de-uso/README.md)
   * [Logo](niquel/guias-de-uso/logo.md)
 
+---
+
+* [📜 Updates](updates.md)
+

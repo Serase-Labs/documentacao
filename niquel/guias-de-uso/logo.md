@@ -48,7 +48,7 @@ Nem todos os tamanhos são utilizados atualmente. Seguem os valores em uso para 
 * Logo Primária
   * Na tela inicial do aplicativo, utilizada em 144x144
 * Logo Secundária
-  * \[Previsão\] Em notificações: 24x24, 36x36, 48x48, 72x72, 96x96 \(para ícones pequenos\) e 256x256 para ícones grandes de notificação.
+  * \[Previsão\] Em notificações: 24x24, 36x36, 48x48, 72x72, 96x96 \(para ícones pequenos\) e 256x256 para ícones grandes de notificação.\*
 * Logo Monocromática
   * Em componentes de localização interna, utilizada em 36x36.
 
@@ -63,4 +63,8 @@ Caso necessite de uma logo em tamanho não encontrado na pasta de `assets`da Bra
   > nomedalogo + tamanhoempixels
   >
   > Por exemplo: logosecundaria64x64.png
+
+## Fontes
+
+* [Página com recursos utilizados em notificações de aplicativos nativos do android.](https://documentation.onesignal.com/docs/customize-notification-icons)
 
