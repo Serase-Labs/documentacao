@@ -12,4 +12,6 @@ description: >-
 * 22/07
   * Documentação da Logo \(Guia de utilização dos tamanhos e modelos\)
   * Documentação dos Botões \(Guia de utilização e implementação\)
+* 24/07
+  * Documentação do Componente de Localização \(Guia de implementação e estilização\)
 
