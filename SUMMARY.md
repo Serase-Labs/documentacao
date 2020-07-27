@@ -19,4 +19,5 @@
 ---
 
 * [📜 Updates](updates.md)
+* [Input](input.md)
 

@@ -14,4 +14,6 @@ description: >-
   * Documentação dos Botões \(Guia de utilização e implementação\)
 * 24/07
   * Documentação do Componente de Localização \(Guia de implementação e estilização\)
+  * Documentação básica do Componente de Input de Texto \(Guia de implementação e estilização\)
+    * A adicionar: anatomia e especificações
 
