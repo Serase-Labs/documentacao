@@ -4,13 +4,12 @@ description: Guia de implementação e estilização de inputs.
 
 # Input
 
-
-
 Inputs são unidades de entrada de texto, a documentação para um formulário \(padrão formado por componentes funcionais e validável\) se encontra \(aqui\)\[Se não tem um link é porque eu ainda não escrevi hehe\]
 
 #### Tipos de Input
 
 * Inputs de texto: fornecidos como componentes nativos do React Native e mais frequentemente utilizados.
+* Inputs de texto com dica
 * Checkboxes: _a implementar._
 * Input de data: _a decidir._
 
@@ -63,4 +62,25 @@ O que determina o tamanho de todos os elementos do input: label, mensagem de err
 ```javascript
 containerInputPequeno: tailwind("w-32 mb-2"),
 ```
+
+## Input de Texto com Dica
+
+![](../../.gitbook/assets/input-de-texto-com-dica-showcase.png)
+
+### Anatomia
+
+* Um container \(`View`\)
+  * Um label \(`Text`\) 
+  * Um texto explicativo \(`Text`\)
+  * O input \(`TextInput`\)
+  * Texto de erro \(`Text`\)
+    * Encapsulado por um objeto de validação do Formik
+
+### Implementação
+
+### Estilização
+
+
+
+> Inputs com Dica só devem ser utilizados no tamanho grande. Colocar dicas em um input de tamanho pequeno, compromete a visibilidade e a estrutura do formulário.
 

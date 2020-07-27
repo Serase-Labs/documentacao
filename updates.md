@@ -17,4 +17,5 @@ description: >-
   * Documentação básica do Componente de Input de Texto \(Guia de implementação e estilização\)
 * 27/07
   * Documentação completa do Componente de Input de Texto
+  * Documentação incompleta do Componente de Input de Texto com Dica
 
