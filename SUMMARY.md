@@ -15,9 +15,9 @@
 * [Componentes](niquel/componentes/README.md)
   * [Indicador de Localização](niquel/componentes/indicador-de-localizacao.md)
   * [Botões](niquel/componentes/botoes.md)
+  * [Input](niquel/componentes/input.md)
 
 ---
 
 * [📜 Updates](updates.md)
-* [Input](input.md)
 
