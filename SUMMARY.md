@@ -7,6 +7,10 @@
 * [🧰 Ferramentas](documentacao/ferramentas.md)
 * [⌨ Desenvolvimento](documentacao/desenvolvimento.md)
 
+---
+
+* [Soluções](solucoes.md)
+
 ## Níquel
 
 * [Introdução](niquel/introducao.md)
@@ -16,6 +20,8 @@
   * [Indicador de Localização](niquel/componentes/indicador-de-localizacao.md)
   * [Botões](niquel/componentes/botoes.md)
   * [Input](niquel/componentes/input.md)
+* [Padrões](niquel/padroes.md)
+* [Telas](niquel/telas.md)
 
 ---
 
