@@ -17,7 +17,7 @@ description: >-
   * Documentação básica do Componente de Input de Texto \(Guia de implementação e estilização\)
 * 27/07
   * Documentação completa do Componente de Input de Texto
-  * Documentação incompleta do Componente de Input de Texto com Dica
   * Como manter a tela abaixo da barra de notificação by Juan
   * Como manter o teclado longe o suficiente do input sendo preenchido by Nicoly
+  * Documentação completa do Componente de Input de Texto com Dica
 
