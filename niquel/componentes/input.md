@@ -6,10 +6,11 @@ description: Guia de implementação e estilização de inputs.
 
 Inputs são unidades de entrada de texto, a documentação para um formulário \(padrão formado por componentes funcionais e validável\) se encontra \(aqui\)\[Se não tem um link é porque eu ainda não escrevi hehe\]
 
-#### Tipos de Input
+### Tipos de Inputs
 
-* Inputs de texto: fornecidos como componentes nativos do React Native e mais frequentemente utilizados.
+* Inputs de texto
 * Inputs de texto com dica
+* Select
 * Checkboxes: _a implementar._
 * Input de data: _a decidir._
 
@@ -78,9 +79,42 @@ containerInputPequeno: tailwind("w-32 mb-2"),
 
 ### Implementação
 
+```javascript
+<View style={[estilos.containerInput]}>
+		<Text style={estilos.labelInput}>Conteúdo do Input</Text>
+		<Text style={estilos.textoDica}>/*Dica*/</Text>
+				<TextInput 
+					style={estilos.input} 
+					// ... props do Formik
+					blurOnSubmit={true}
+					keyboard={} //tipo de teclado a ser utilizado
+					placeholder={} //texto no interior do input
+					placeholderTextColor={"#A0AEC0"}/>
+
+					{errors./*inputName*/ && (
+						<Text style={estilos.errorInput}>
+										{errors./*inputName*/}
+						</Text>
+					)}
+</View>
+```
+
 ### Estilização
 
+```javascript
+containerFormulario: tailwind("w-full items-center"),
+containerInput: tailwind("w-64 mb-2"),
+labelInput: tailwind("text-gray-700 text-base font-bold mb-3"),
+textoDica: tailwind("text-gray-500 text-base mb-3"),
+input: tailwind( "border border-gray-500 rounded w-full py-2 px-3 text-gray-700 text-base"),
+errorInput: tailwind("bg-red-100 border border-red-400 text-red-700 px-4 py-2 mt-2 rounded relative"),
+```
 
+A única linha de diferença para um input de texto comum é a adição de `textoDica`.
+
+```javascript
+textoDica: tailwind("text-gray-500 text-base")
+```
 
 > Inputs com Dica só devem ser utilizados no tamanho grande. Colocar dicas em um input de tamanho pequeno, compromete a visibilidade e a estrutura do formulário.
 
