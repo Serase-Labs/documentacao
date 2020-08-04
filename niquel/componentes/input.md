@@ -192,19 +192,19 @@ Para que ocorra a passagem de dados para o Formik é necessária a utilização 
 ```javascript
 <TouchableOpacity style={[estilos.containerInput]}
 									onPress={showDatePicker}>
-		<Text style={estilos.labelInput}>Prazo</Text>
-		<TextInput style={estilos.input} editable={false} value={values.prazo} placeholder={"Selecione a data."} placeholderTextColor={"#A0AEC0"}/>
+		<Text style={estilos.labelInput}>/*nome do campo*/</Text>
+		<TextInput style={estilos.input} editable={false} value={values./*nome do campo*/} placeholder={/*mensagem*/} placeholderTextColor={"#A0AEC0"}/>
 				{show && (
 					<DateTimePicker value={date} mode={mode} display="default" onChange={(event, selectedDate) => { 
 						setShow(false);
 						const currentDate = selectedDate.toString();
-						setFieldValue("prazo", currentDate);
+						setFieldValue(/*"nome do campo"*/, currentDate);
 						console.log(currentDate);
 				 	}}/>
 				)}
 				{errors.prazo && (
 					<Text style={estilos.errorInput}>
-							{errors.prazo}
+							{errors./*nome do campo*/}
 					</Text>
 				)}
 /TouchableOpacity>
@@ -217,5 +217,58 @@ Para que ocorra a passagem de dados para o Formik é necessária a utilização 
 
 Exatamente as mesmas de um input de texto comum, favor checar acima.
 
+## Input Select
 
+### Anatomia
+
+![Showcase do Input Select em tela](../../.gitbook/assets/showcase-input-select.jpg)
+
+![Showcase Input Select Aberto](../../.gitbook/assets/showcase-input-select-aberto.jpg)
+
+* Um container \(`View`\)
+  * Um label \(`Text`\) 
+  * O input \(`Picker`\)
+  * Texto de erro \(`Text`\)
+    * Encapsulado por um objeto de validação do Formik
+
+### Implementação
+
+#### Importação
+
+```javascript
+import { /* outros componentes da página */ , Picker } from "react-native";
+```
+
+> A documentação do React Native diz que o componente Picker está deprecado. Por que a gente tá usando ele então? Porque ele funciona.
+
+#### Integração com Formik
+
+Assim como no caso do input de data, documentado acima, é necessário utilizar o método `setFieldValue`. Retorne a documentação do input de data para verificar instruções sobre.
+
+#### Componentes
+
+```javascript
+<View style={[estilos.containerInput]}>
+		<Text style={estilos.labelInput}> /* nome do campo */ </Text>
+				<Picker mode="dropdown" onValueChange={( itemValue, itemIndex) => {
+						setFieldValue(/*"nome do campo"*/, itemValue);
+						console.log(itemValue);
+				}}>
+						<Picker.Item label=/*"texto a ser exibido"*/ value=/*"valor a ser retornado*//>
+						<Picker.Item label=/*"texto a ser exibido"*/ value=/*"valor a ser retornado*//>
+						<Picker.Item label=/*"texto a ser exibido"*/ value=/*"valor a ser retornado*//>
+						// Insira quantas opções forem necessárias.
+			  </Picker>
+				
+				{errors./*nome do campo*/ && (
+						<Text style={estilos.errorInput}>
+							 {errors./*nome do campo*/}
+						</Text>
+				)}
+</View>
+```
+
+### Estilização
+
+Exatamente as mesmas estilizações de um input de texto comum, favor checar documentação acima. 
 

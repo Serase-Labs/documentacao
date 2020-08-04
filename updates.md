@@ -22,6 +22,8 @@ description: >-
   * Documentação completa do Componente de Input de Texto com Dica
 * 03/08
   * Documentação completa do Componente Input de Data
+* 04/08
+  * Documentação completa do Componente de Input Select
 
 
 
