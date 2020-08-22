@@ -6,7 +6,8 @@ description: >-
 
 # 📜 Updates
 
-* 20/07 - Criação desse Gitbook
+* 20/07
+  *  Criação desse Gitbook
 * 21/07
   * Documentação de Desenvolvimento \(Passo-a-passo de instalação do aplicativo\).
 * 22/07
@@ -24,6 +25,10 @@ description: >-
   * Documentação completa do Componente Input de Data
 * 04/08
   * Documentação completa do Componente de Input Select
+* 17/08
+  * Documentação do uso de SVG's com bibliotecas externas
+* 22/08
+  * Organização
 
 
 

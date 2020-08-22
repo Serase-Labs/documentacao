@@ -4,7 +4,11 @@ description: >-
   usabilidade do produto final.
 ---
 
-# Soluções
+# 🧩 Soluções
+
+{% hint style="info" %}
+Se oriente pela lista de conteúdos no canto direito da página para encontrar o erro que deseja solucionar mais facilmente.
+{% endhint %}
 
 ## Mantendo o conteúdo longe da barra de notificação by Juan
 

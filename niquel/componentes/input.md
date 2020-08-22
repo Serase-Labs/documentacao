@@ -2,7 +2,7 @@
 description: Guia de implementação e estilização de inputs.
 ---
 
-# Input
+# Inputs
 
 Inputs são unidades de entrada de texto, a documentação para um formulário \(padrão formado por componentes funcionais e validável\) se encontra \(aqui\)\[Se não tem um link é porque eu ainda não escrevi hehe\]
 

@@ -4,7 +4,7 @@ description: >-
   (do jeito certo).
 ---
 
-# ⌨ Desenvolvimento
+# 🌐 Quick Start
 
 ### Passo 01: Clonando o repositório
 
